@@ -12,7 +12,7 @@ const Service = () => {
 
                 <div className="w-1/2">
                     <button className="py-[10px] bg-[#FBFBFB] rounded-[25px] px-[24px] border border-[#343268]">Service</button>
-                    <h3 className="text-[36px] my-4 w-[502px] font-semibold">Empowering Health, Enriching Lives</h3>
+                    <h3 className="text-[36px] text-[#020043] my-4 w-[502px] font-semibold">Empowering Health, Enriching Lives</h3>
                     <p className="w-[500px]">We are committed to providing high-quality, compassionate care to every patient we serve. Whatever your healthcare needs may be, you can trust us to be your partner in health and wellness.</p>
                     <button className="flex mt-10 items-center px-[24px] py-[12px]  bg-[#FFC637] rounded-[12px]">
                         Appointment <GoArrowUpRight />

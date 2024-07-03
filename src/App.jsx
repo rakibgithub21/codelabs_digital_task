@@ -4,6 +4,7 @@ import Banner from './component/Banner'
 import ComprehensiveCare from './component/ComprehensiveCare'
 import Navbar from './component/Navbar'
 import Service from './component/Service'
+import Testimonial from './component/Testimonial'
 import WhoWeAre from './component/WhoWeAre'
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
       <Banner />
       <ComprehensiveCare />
       <WhoWeAre />
-      <Service/>
+      <Service />
+      <Testimonial/>
     </div>
   )
 }
