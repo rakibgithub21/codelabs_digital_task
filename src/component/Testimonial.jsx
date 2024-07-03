@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import person1 from '../assets/People/Ellipse 10.svg'
 import person2 from '../assets/People/Ellipse 3.svg'
 import person3 from '../assets/People/Ellipse 2.svg'

@@ -4,6 +4,7 @@ import Banner from './component/Banner'
 import ComprehensiveCare from './component/ComprehensiveCare'
 import Faq from './component/Faq'
 import Navbar from './component/Navbar'
+import Offer from './component/Offer'
 import Service from './component/Service'
 import Testimonial from './component/Testimonial'
 import WhoWeAre from './component/WhoWeAre'
@@ -18,7 +19,8 @@ function App() {
       <WhoWeAre />
       <Service />
       <Testimonial />
-      <Faq/>
+      <Faq />
+      <Offer/>
     </div>
   )
 }

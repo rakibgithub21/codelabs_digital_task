@@ -42,8 +42,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a
-            className="border border-[#343268] rounded-xl flex items-center gap-2 text-[#020043] font-medium px-[20px] py-[10px] md:px-[28px] md:py-[14px] ">Appointment <GoArrowUpRight/></a>
+                <a className="border border-[#343268] rounded-xl flex items-center gap-2 text-[#020043] font-medium px-[20px] py-[10px] md:px-[28px] md:py-[14px] ">Appointment <GoArrowUpRight/></a>
             </div>
         </div>
     );
