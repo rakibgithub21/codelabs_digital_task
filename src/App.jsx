@@ -3,6 +3,7 @@ import './App.css'
 import Banner from './component/Banner'
 import ComprehensiveCare from './component/ComprehensiveCare'
 import Navbar from './component/Navbar'
+import Service from './component/Service'
 import WhoWeAre from './component/WhoWeAre'
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
       <Navbar />
       <Banner />
       <ComprehensiveCare />
-      <WhoWeAre/>
+      <WhoWeAre />
+      <Service/>
     </div>
   )
 }
