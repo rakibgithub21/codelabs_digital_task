@@ -6,7 +6,7 @@ const Banner = () => {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         width: '100%',
-        height: '600px' // Adjust height as needed
+        height: '600px'
     };
     return (
         <div style={bannerStyle} className='rounded-[48px]'>
