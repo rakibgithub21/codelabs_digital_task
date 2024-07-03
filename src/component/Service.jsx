@@ -6,20 +6,20 @@ import female_doctor from '../assets/Media/Rectangle 27.png'
 
 const Service = () => {
     return (
-        <div className="bg-[#FFFFF5] p-10 container mx-auto">
+        <div className="bg-[#FFFFF5] p-10 container my-20 mx-auto">
 
-            <div className="flex justify-between items-center">
+            <div className="flex flex-col gap-10 lg:flex-row justify-between items-center">
 
-                <div className="w-1/2">
+                <div className="lg:w-1/2 w-full">
                     <button className="py-[10px] bg-[#FBFBFB] rounded-[25px] px-[24px] border border-[#343268]">Service</button>
                     <h3 className="text-[36px] text-[#020043] my-4 w-[502px] font-semibold">Empowering Health, Enriching Lives</h3>
                     <p className="w-[500px]">We are committed to providing high-quality, compassionate care to every patient we serve. Whatever your healthcare needs may be, you can trust us to be your partner in health and wellness.</p>
-                    <button className="flex mt-10 items-center px-[24px] py-[12px]  bg-[#FFC637] rounded-[12px]">
+                    <button className="flex mt-10 items-center px-[24px] py-[12px] bg-[#FFC637] rounded-[12px]">
                         Appointment <GoArrowUpRight />
                     </button>
                 </div>
 
-                <div className="w-1/2">
+                <div className="lg:w-1/2 w-full">
                     <div className="relative">
                         <div>
                             <img className="rounded-[30px] w-full" src={x_ray} alt="" />
@@ -42,9 +42,9 @@ const Service = () => {
 
             </div>
 
-            <div className="flex  gap-20 mt-20 items-center" >
+            <div className="flex flex-col lg:flex-row  gap-20 mt-20 items-center" >
 
-                <div className="w-1/2">
+                <div className="lg:w-1/2 w-full">
                     <div className="relative">
                         <div>
                             <img className="rounded-[30px] w-full" src={male_doctor} alt="" />
@@ -65,7 +65,7 @@ const Service = () => {
                     </div>
                 </div>
 
-                <div className="w-1/2">
+                <div className="lg:w-1/2 w-full">
                     <div className="relative">
                         <div>
                             <img className="rounded-[30px] w-full" src={female_doctor} alt="" />

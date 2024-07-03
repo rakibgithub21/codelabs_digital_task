@@ -8,15 +8,17 @@ import { FaStar } from "react-icons/fa6";
 const Testimonial = () => {
     return (
         <div className="my-20 container mx-auto">
-            <button className="py-[10px] rounded-[25px] px-[24px] border border-[#343268]">Testimonial</button>
-            <h3 className="text-[36px] text-[#020043] font-semibold mt-4 mb-8">What they say about us</h3>
+            <div className='pl-3 md:pl-0'>
+                <button className="py-[10px] rounded-[25px] px-[24px] border border-[#343268]">Testimonial</button>
+                <h3 className="text-[36px] text-[#020043] font-semibold mt-4 mb-8">What they say about us</h3>
+           </div>
 
-            <div className="flex gap-5">
+            <div className="flex flex-col lg:flex-row  gap-5">
                 <div className="bg-[#FFFFF5] p-10 rounded-2xl">
                     <h3 className='text-[#020043] text-[19px] font-semibold'>Expertise and Compassion <br /> Combined</h3>
                     <p className='text-[#4D4C7B] mt-3 mb-4'>I can't thank enough for their exceptional care. The doctors and staff showed incredible expertise and compassion throughout my treatment journey. I felt truly cared for every step of the way.</p>
 
-                    <div className='flex gap-2 items-center'>
+                    <div className='flex  gap-2 items-center'>
                         <div className='w-14 h-14'>
                             <img className='w-full rounded-full' src={person1} alt="" />
                         </div>

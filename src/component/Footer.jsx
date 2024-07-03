@@ -10,9 +10,9 @@ const Footer = () => {
             <div className="container mx-auto">
                 <img src={logo} alt="" />
 
-                <div className='mt-12 flex justify-between '>
+                <div className='mt-12 md:flex flex-wrap justify-between '>
 
-                    <div className='text-[#FFFFF5] space-y-10'>
+                    <div className='text-[#FFFFF5] mb-10 md:mb-0 space-y-3 md:space-y-10'>
 
                         <div>
                             <p>123 Main Street Anytown, USA</p>
@@ -23,17 +23,18 @@ const Footer = () => {
                             <p>Support: support@oyolloo.com</p>
                             <p>(Available : 10:00am to 07:00pm)</p>
                         </div>
-
+                       
                     </div>
+                   
 
-                    <div className='text-[#FFFFF5] space-y-4'>
+                    <div className='text-[#FFFFF5]  mb-10 md:mb-0 space-y-2 md:space-y-4'>
                         <p>Home</p>
                         <p>About us</p>
                         <p>Success Page</p>
                         <p>Terms and condition</p>
                     </div>
 
-                    <div className='text-[#FFFFF5] space-y-4'>
+                    <div className='text-[#FFFFF5]  mb-10 md:mb-0 space-y-2 md:space-y-4'>
                         <p>Services</p>
                         <p>Scheduling</p>
                         <p>Contact Us</p>

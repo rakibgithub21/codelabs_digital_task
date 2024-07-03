@@ -16,7 +16,7 @@ function App() {
     <div >
       <Navbar />
       <Banner />
-      <ComprehensiveCare />
+      {/* <ComprehensiveCare /> */}
       <WhoWeAre />
       <Service />
       <Testimonial />

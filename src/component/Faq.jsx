@@ -2,7 +2,7 @@ import { FaAngleDown } from "react-icons/fa6";
 
 const Faq = () => {
     return (
-        <div className="my-20 container mx-auto">
+        <div className="my-20 px-3 md:px-0 container mx-auto">
             <button className="py-[10px] rounded-[25px] px-[24px] border border-[#343268]">Faq</button>
             <h3 className="text-[36px] text-[#020043] font-semibold mt-4 mb-8">Frequntly Asked Question</h3>
             <div>
