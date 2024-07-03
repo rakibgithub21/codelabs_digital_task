@@ -3,6 +3,7 @@ import './App.css'
 import Banner from './component/Banner'
 import ComprehensiveCare from './component/ComprehensiveCare'
 import Faq from './component/Faq'
+import Footer from './component/Footer'
 import Navbar from './component/Navbar'
 import Offer from './component/Offer'
 import Service from './component/Service'
@@ -12,7 +13,7 @@ import WhoWeAre from './component/WhoWeAre'
 function App() {
 
   return (
-    <div className='container mx-auto '>
+    <div >
       <Navbar />
       <Banner />
       <ComprehensiveCare />
@@ -20,7 +21,8 @@ function App() {
       <Service />
       <Testimonial />
       <Faq />
-      <Offer/>
+      <Offer />
+      <Footer/>
     </div>
   )
 }

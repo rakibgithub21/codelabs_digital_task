@@ -10,7 +10,7 @@ const Offer = () => {
         width: '100%',
     };
     return (
-        <div style={bannerStyle} className='rounded-[48px] h-[500px] my-20 p-[60px] '>
+        <div style={bannerStyle} className='rounded-[48px] container mx-auto h-[500px] my-20 p-[60px] '>
 
             <img className='ml-auto' src={logo} alt="" />
 

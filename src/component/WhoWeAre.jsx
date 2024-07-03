@@ -3,7 +3,7 @@ import doctorImage from '../assets/Media/Rectangle 24.png'
 
 const WhoWeAre = () => {
     return (
-        <div className="flex justify-between my-20 p-10">
+        <div className="flex justify-between my-20 container mx-auto p-10">
             <div className="">
                 <button className="py-[10px] bg-[#FFFFF5] rounded-[25px] px-[24px] border border-[#343268]">Who We Are</button>
                 <h3 className="mt-[15px] font-semibold text-[36px] w-[396px]">We Help To Get Soultions</h3>

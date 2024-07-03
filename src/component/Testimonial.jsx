@@ -7,7 +7,7 @@ import { FaStar } from "react-icons/fa6";
 
 const Testimonial = () => {
     return (
-        <div className="my-20">
+        <div className="my-20 container mx-auto">
             <button className="py-[10px] rounded-[25px] px-[24px] border border-[#343268]">Testimonial</button>
             <h3 className="text-[36px] text-[#020043] font-semibold mt-4 mb-8">What they say about us</h3>
 

@@ -9,7 +9,7 @@ const Banner = () => {
         height: '600px'
     };
     return (
-        <div style={bannerStyle} className='rounded-[48px]'>
+        <div style={bannerStyle} className='container mx-auto rounded-[48px]'>
             
         </div>
     );

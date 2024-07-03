@@ -10,7 +10,7 @@ import person4 from '../assets/People/Ellipse 5.svg'
 
 const ComprehensiveCare = () => {
     return (
-        <div className="grid grid-cols-5 gap-20 my-20">
+        <div className="grid grid-cols-5 container mx-auto gap-20 my-20">
             <div className="border rounded-3xl bg-[#FBFBFB] p-5 col-span-1 border-[#02004333]">
                 <h3 className='text-[#020043] font-semibold text-[40px]'>90%</h3>
                 <p className='text-[#020043] mt-2 mb-6 w-[156px]'>Patient satisfaction rate, reflecting our commitment.</p>

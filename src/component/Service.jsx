@@ -6,7 +6,7 @@ import female_doctor from '../assets/Media/Rectangle 27.png'
 
 const Service = () => {
     return (
-        <div className="bg-[#FFFFF5] p-10">
+        <div className="bg-[#FFFFF5] p-10 container mx-auto">
 
             <div className="flex justify-between items-center">
 
