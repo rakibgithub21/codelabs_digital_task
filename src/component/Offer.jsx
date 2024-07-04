@@ -19,10 +19,10 @@ const Offer = () => {
                     First Appointment <br />
                     at 50% Off!</h3>
                 <div className='flex gap-3 mt-[24px]'>
-                    <button className="flex font-medium items-center px-[24px] py-[12px] bg-[#FFC637] rounded-[12px]">
+                    <button className="flex font-medium px-4 py-2 items-center md:px-[24px] md:py-[12px] bg-[#FFC637] rounded-[12px]">
                         Appointment <GoArrowUpRight />
                     </button>
-                    <button  className="border text-white border-[#FFFFF5] rounded-xl flex items-center gap-2 font-medium  px-[24px] py-[12px]">Learn More <GoArrowUpRight /></button>
+                    <button  className="border px-[15px] py-[10px] text-white border-[#FFFFF5] rounded-xl flex items-center gap-2 font-medium  md:px-[24px] md:py-[12px]">Learn More <GoArrowUpRight /></button>
                </div>
             </div>
 
