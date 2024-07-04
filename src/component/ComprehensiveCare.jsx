@@ -17,7 +17,7 @@ const ComprehensiveCare = () => {
                 <img className='mx-auto' src={chartIcons} alt="" />
             </div>
             <div className="col-span-3">
-                <h3 className='font-semibold md:text-[48px] text-3xl md:w-[532px] mb-[21px] mx-auto text-center'>Comprehensive Care for Every Patient</h3>
+                <h3 className='font-semibold md:text-[48px] text-3xl md:w-[532px] mb-[21px] mx-auto text-center leading-tight'>Comprehensive Care for Every Patient</h3>
 
                 <div className='md:grid md:grid-cols-3 gap-7 space-y-5 md:space-y-0'>
                     <div className='col-span-1 p-5 bg-[#FFFFF5] border rounded-3xl border-[#02004333]  '>
