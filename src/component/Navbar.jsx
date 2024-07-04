@@ -6,7 +6,7 @@ const Navbar = () => {
         <div className="navbar bg-base-100 container mx-auto py-8">
             <div className="navbar-start">
                 <div className="dropdown">
-                    <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+                    <div tabIndex={0} role="button" className="btn btn-ghost  lg:hidden">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-5 w-5"
@@ -30,7 +30,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 {/* <a className="btn btn-ghost text-xl">daisyUI</a> */}
-                <img className=' w-[100px] md:w-[124px] md:h-[33px]' src={navLogo} alt="" />
+                <img className=' lf:w-[100px] w-[96px] md:h-[33px]' src={navLogo} alt="" />
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal text-[#020043] px-1">
